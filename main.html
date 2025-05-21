@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" href="" type="image/png" sizes="64x64">
+    <link  href="../css/baseStyle.css" rel="stylesheet">
+    <link  href="../css/main.css" rel="stylesheet">
+    <link  href="../css/mainSlider.css" rel="stylesheet">
+    
+    <title>Лаба</title>
+</head>
+<body> 
+<header>
+    <img class="logo" src="../accets/logo.png" alt="">
+    <ul class="header-ul">
+        <li><a class="element-header-text" href="main.html" style="text-decoration: underline">Главная страница</a></li>
+        <li><a class="element-header-text" href="contacts.html">Контакты</a></li>
+        <li><a class="element-header-text" href="portfolio.html">Портфолио</a></li>
+        <li><a class="element-header-text" href="blog.html">Блог</a></li>
+        <li><a class="element-header-text" href="price.html">Цены</a></li>
+        <li><a class="element-header-text-reservation" href="reservation.html">Обратная связь</a></li>
+    </ul>
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <h3 class="sidenav-text">Главная</h3>
+        <ul>            
+            <li><a class="element-slidebar-text" href="main.html" style="text-decoration: underline">Главная страница</a></li>
+            <li><a class="element-slidebar-text" href="contacts.html">Контакты</a></li>
+            <li><a class="element-slidebar-text" href="portfolio.html">Портфолио</a></li>
+            <li><a class="element-slidebar-text" href="blog.html">Блог</a></li>
+            <li><a class="element-slidebar-text" href="price.html">Цены</a></li>
+            <li><a class="element-slidebar-text" href="reservation.html">Обратная связь</a></li>
+        </ul>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+        <img class="icon-slidebar" src="../accets/icon%20sidebar.png" alt="sliderbar">
+    </span>    
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</header>
+    
+    
+<main>
+    
+    
+    <h1>О компании</h1>
+    <div class="text-about">
+        <div>
+            <p class="text-in-cards">Мы рады предложить вам широкий спектр услуг по оптимальной цене.</p>
+            <p class="text-in-cards">Мы заботимся о вашем комфорте. С нами вы сможете воплотить идею дизайна интерьера и создать уютную и стильную обстановку – и все это в короткие сроки и по разумной цене.</p>
+            <p class="text-in-cards">Наша надежность и высокий профессионализм подтверждаются благодарными отзывами наших клиентов. Опытные и квалифицированные строители качественно и в короткие сроки выполняют капитальный или косметический ремонт квартир и офисов. Этапы и объемы работ известны заранее и указаны в официальном договоре. Мы проводим постоянный контроль качества на всех этапах работ. При проведении ремонтных работ используются только проверенные и безопасные материалы, что позволяет гарантировать, что отличные результаты сохранятся надолго.</p>
+        </div>
+        <div>
+            <h3>Преимущества работы с нами</h3>
+            <p class="text-in-cards">●	Опыт работы более 10 лет</p>
+            <p class="text-in-cards">●	Гарантия на все работы составляет 3 года</p>
+            <p class="text-in-cards">●	Оплата работ по завершении</p>
+            <p class="text-in-cards">●	Беспроцентная рассрочка</p>
+            <p class="text-in-cards">●	Официальный договор</p>
+        </div>
+    </div>
+    <h1>Отзывы</h1>
+    <div class="reviews-window">
+        <div class="review">
+            <p class="name-in-reviews">Владимир Казначеев</p>
+            <p class="date-in-reviews">Дата отзыва: 07.05.2024</p>
+            <p class="text-in-reviews">Ремонтом доволен. Всё чётко и быстро выполнено. Мастер хороший, доставка быстрая. Ребята делают все качественно, своевременно и оказывают поддержку в некоторых вопросах.</p>
+        </div>
+        <div class="review">
+            <p class="name-in-reviews">Наталия Родникова</p>
+            <p class="date-in-reviews">Дата отзыва: 25.04.2024</p>
+            <p class="text-in-reviews">Хочу сказать спасибо данной компании за проделанные работы. Сделаю все хорошо, качественно и своевременно. Особенная благодарность прорабу Ибрагиму за его труд, хорошее отношение и за помощь во всех вопросах. Он всегда на связи, готов помочь с тем или иным вопросом в материалах или дать консультации. Его команда проделала хорошую работу.</p>
+        </div>
+        <div class="review">
+            <p class="name-in-reviews">Галина Бедрицкая</p>
+            <p class="date-in-reviews">Дата отзыва: 13.04.2024</p>
+            <p class="text-in-reviews">Закончили ремонт в квартире. Обращались в компанию Конструктив. Ребята молодцы, спасибо огромное. Работу выполнили на совесть, качественно и красиво. В процессе мы внесли несколько изменений в проект, согласовали с прорабом и дизайнером возможность этих изменений, и всё получилось. Бригада мастеров попалась хорошая, в квартире был порядок, сдали квартиру в идеальной чистоте, уборку сделали в подарок, очень приятно.</p>
+        </div>
+        <div class="review">
+            <p class="name-in-reviews">Иван Печерский</p>
+            <p class="date-in-reviews">Дата отзыва: 21.04.2023</p>
+            <p class="text-in-reviews">Обратился в компанию Конструктив для ремонта квартиры и остался приятно удивлена их профессионализмом! Работа была выполнена в срок и с высочайшим качеством. Максимально приятное общение, во время формирования дизайн-проекта с дизайнером было ощущение, что люди профессионалы своего дела и любят то, чем занимаются, это просто потрясающе. Спасибо за отличный сервис и безупречный ремонт! Буду рекомендовать вашу компанию всем своим знакомым!</p>
+        </div>
+    </div>
+    <div class="center-window">
+        <div class="window-pictures">
+            <h1>Примеры работ</h1>
+
+            <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img class="exampleWork" src="../accets/work11.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img class="exampleWork" src="../accets/work21.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img class="exampleWork" src="../accets/work31.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        
+        <script src="../js/menuSlider.js"></script>
+    </div>
+
+</main>
+    
+    
+<footer>
+    <ul>
+        <h3>License</h3>
+        <li><h4>&copy; Constructiv</h4></li>
+    </ul>
+    <ul>
+        <h3>Часы работы</h3>
+        <li class="element-footer-text">ежедневно с 9:00 до 21:00</li>
+
+    </ul>
+    
+    <ul>
+        <h3>Разработчики сайта</h3>
+        <li class="element-footer-text">Кузнецов П.М.</li>
+    </ul>
+    <ul>
+        <h3>Контакты</h3>
+        <li><a class="element-footer-text-contacts">8 (987) 123-45-67</a></li>
+        <li><a class="element-footer-text-contacts">constructiv@something.com</a></li>
+        <li>
+            <div>
+                <a class="element-footer-text" href="vk.com/constructiv"><img class="footer-logo" src="../accets/logoVk.png" alt=""></a>
+                <a class="element-footer-text" href="t.me/constructiv"><img class="footer-logo" src="../accets/logoTg.png" alt=""></a>
+                <a class="element-footer-text" href="www.youtube.com/@constructiv"><img class="footer-logo" src="../accets/logoYouTube.png" alt=""></a>
+            </div>
+        </li> 
+    </ul>   
+</footer>  
+</body>
+</html>
